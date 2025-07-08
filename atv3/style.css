@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.topo {
+    border: 1px solid;
+}
+
+.img {
+    width: 12%;
+}
+
+.conteudo {
+    overflow: hidden;
+    padding: 0 20px;
+    border: 1px solid;
+    margin-top: 20px;
+}
+
+.menu-esquerdo {
+    width: 29%;
+    float: left;
+    padding: 20px;
+    border: 1px solid;
+    box-sizing: border-box;
+    margin-top: 20px;
+}
+
+.box-direito {
+    width: 70%;
+    float: right;
+    padding: 20px;
+    border: 1px solid;
+    box-sizing: border-box;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.rodape {
+    text-align: center;
+    padding: 20px;
+    border: 1px solid;
+    font-weight: bold;
+    margin-top: 20px;
+}
