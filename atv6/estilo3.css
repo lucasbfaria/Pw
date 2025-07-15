@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial;
+    font-size: 12px;
+}
+
+table {
+    width: 600px;
+    margin: 30px auto;
+    border-spacing: 1px;
+    
+}
+
+caption {
+    background: #0D5188;
+    color: white;
+}
+
+th {
+    background-color: #66C5E3;
+}
+
+.posicao {
+    background-color: silver;
+    text-align: center;
+    
+}
+
+.cidade {
+    color: #0D5188;
+    background-color: #C7E7F3;
+}
+
+.pop {
+    background-color: #C7E7F3;
+    text-align: center;
+}

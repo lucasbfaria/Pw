@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial;
+    font-size: 12px;
+}
+
+table {
+    width: 600px;
+    margin: 30px auto 0;
+    border-collapse: collapse;
+}
+
+.posicao {
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+}
+
+tr {
+    border: 1px solid #DDDDDD;
+}
+
+th {
+    font-size: 13px;
+    color: #999999;
+    font-weight: bold;
+    text-align: center;
+    padding: 7px;
+}
+
+.nome {
+    font-weight: bold;
+    text-align: left;
+}
+
+td {
+    font-size: 14px;
+    color: #666666;
+    text-align: center;
+    padding: 7px;
+}
+
+.pontos {
+    color: black;
+    font-weight: bold;
+}
+
+.libertadores .posicao{
+    color: #003366;
+}
+
+.libertadores .posicao {
+    color: #003366;
+}
+
+.pre-libertadores .posicao {
+    color: #1398BE;
+}
+
+.sul-americana .posicao {
+    color: #DE9800;
+}
+
+.meio .posicao {
+    color: #CCCCCC;
+}
+
+.rebaixado .posicao {
+    color: #C91B04;
+}
+
+.cinza {
+    background: #F7F7F7;
+}
+
+.legenda {
+    width: 600px;
+    margin: 0 auto;
+    font-size: 10px;
+    color: #555555;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-top: 0;
+    padding: 7px;
+}
+
+.cores .tag {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    margin-right: 5px;
+    margin-left: 10px;
+    vertical-align: middle;
+    border-radius: 2px;
+}
+.cores p{
+    display: inline;
+    margin: 2px 0;
+    margin-right: 5px;
+    color: #8F8F8F;
+    text-align: left;
+}
+
+.significados {
+    margin: 4px 0;
+}
+
+.cores .libertadores {
+    background-color: #003366;
+}
+
+.cores .pre-libertadores {
+    background-color: #1398BE;
+}
+
+.cores .sul-americana {
+    background-color: #DE9800;
+}
+
+.cores .rebaixado {
+    background-color: #C91B04;
+}
