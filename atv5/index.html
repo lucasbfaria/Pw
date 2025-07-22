@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Formulario</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h2>Jorge Ramon</h2>
+    <div class="form-top">
+      <div class="inputs">
+        <label>First Name: <input type="text" value="Jorge"></label>
+        <label>Last Name: <input type="text" value="Ramon"></label>
+        <label>Company: <input type="text" value="MiamiCoder"></label>
+        <label>Title: <input type="text" value="Mr"></label>
+      </div>
+      <div class="profile">
+        <img src="foto.png" alt="Foto" class="foto">
+        <button>Change Picture</button>
+      </div>
+    </div>
+
+    <div class="fieldset-row">
+        <fieldset>
+            <legend>Phone Numbers</legend>
+            <label>Home: <input type="text"></label>
+            <label>Business: <input type="text" value="555 555-5555"></label>
+            <label>Mobile: <input type="text"></label>
+            <label>Fax: <input type="text"></label>
+        </fieldset>
+
+        <fieldset>
+            <legend>Internet</legend>
+            <label>Email: <input type="text" value="ramonj@miamicoder.com"></label>
+            <label>Web page: <input type="text" value="http://www.miamicoder.com"></label>
+            <label>IM: <input type="text"></label>
+        </fieldset>
+    </div>
+
+    <fieldset class="address">
+        <legend>Addresses</legend>
+        <div class="address-container">
+            <div class="address-box">
+                <label>Business:</label>
+                <textarea>123 Acme Rd #001
+Miami, FL 33133</textarea>
+                <label class="radio-left"><input type="radio" name="mailing"> Mailing Address</label>
+            </div>
+            <div class="address-box">
+                <label>Home:</label>
+                <textarea></textarea>
+                <label class="radio-right"><input type="radio" name="mailing"> Mailing Address</label>
+            </div>
+        </div>
+    </fieldset>
+    <div class="botoes">
+      <button>Save</button>
+      <button>Cancel</button>
+    </div>
+  </div>
+</body>
+</html>

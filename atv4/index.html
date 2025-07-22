@@ -1,47 +1,116 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
-    <title></title>
+    <title>Exercício 1</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
+
     <header>
-        <div class="logo"><h1>Logo</h1></div>
+        <div class="logo">
+            <h1>LOGO</h1>
+        </div>
         <div class="pesquisa">
             <input type="text" placeholder="pesquisar">
         </div>
     </header>
+
     <nav>
         <ul class="menu">
-            <li><a href="#">home</a></li>
-            <li><a href="#">front-end</a></li>
-            <li><a href="#">back-end</a></li>
-            <li><a href="#">scripts</a></li>
-            <li><a href="#">downloads</a></li>
-            <li><a href="#">eventos</a></li>
-            <li><a href="#">marketing</a></li>
-            <li><a href="#">e-commerce</a></li>
-            <li><a href="#">contato</a></li>
+            <li><a href="#">HOME</a></li>
+
+            <li class="dropdown">
+                <a href="#">FRONT-END</a>
+                <ul class="submenu">
+                    <li><a href="#">Artigo 1</a></li>
+                    <li><a href="#">Artigo 2</a></li>
+                    <li><a href="#">Artigo 3</a></li>
+                </ul>
+            </li>
+
+            <li class="dropdown">
+                <a href="#">BACK-END</a>
+                <ul class="submenu">
+                    <li><a href="#">Artigo 1</a></li>
+                    <li><a href="#">Artigo 2</a></li>
+                    <li><a href="#">Artigo 3</a></li>
+                </ul>
+            </li>
+
+            <li><a href="#">SCRIPTS</a></li>
+            <li><a href="#">DOWNLOADS</a></li>
+            <li><a href="#">EVENTOS</a></li>
+            <li><a href="#">MARKETING</a></li>
+            <li><a href="#">E-COMMERCE</a></li>
+            <li><a href="#">CONTATO</a></li>
         </ul>
     </nav>
+
     <main>
         <div class="esquerda">
             <section class="destaques">
-                <h2>Destaques</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur nisl orci, dapibus sed tortor vel, accumsan pulvinar tortor. Aenean id tempor libero. Phasellus gravida justo ut ante congue, nec cursus dui porttitor. Morbi vitae vulputate ligula. Donec quis ipsum eget neque hendrerit semper. In sed pulvinar lorem. Fusce convallis lectus at est cursus dapibus vitae quis ante. Sed commodo scelerisque tortor, et imperdiet ex commodo et. Quisque molestie magna eu fermentum auctor. Nam cursus ante et lacus interdum, nec venenatis metus hendrerit. Sed gravida, diam et condimentum fermentum, lorem purus viverra leo, quis interdum elit turpis vel nunc.</p>
+                <h2>DESTAQUES</h2>
+                <p class="mini-titulo">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur nisl orci, dapibus sed tortor vel,
+                    accumsan pulvinar tortor. Aenean id tempor libero. Phasellus gravida justo ut ante congue, nec
+                    cursus dui porttitor. Morbi vitae vulputate ligula. Donec quis ipsum eget neque hendrerit semper. In
+                    sed pulvinar lorem. Fusce convallis lectus at est cursus dapibus vitae quis ante. Sed commodo
+                    scelerisque tortor, et imperdiet ex commodo et. Quisque molestie magna eu fermentum auctor. Nam
+                    cursus ante et lacus interdum, nec venenatis metus hendrerit. Sed gravida, diam et condimentum
+                    fermentum, lorem purus viverra leo, quis interdum elit turpis vel nunc...</p>
+                <button class="btn-leia">+ Leia mais</button>
             </section>
-            <section class="back-end">
-                <h2>Back-end</h2>
-                <p>Nam tincidunt sit amet nunc ut dignissim. Morbi commodo augue lobortis tempus porta. Proin sed erat neque. Aenean ornare a tortor non volutpat. Proin mollis eleifend sagittis. Duis vitae suscipit est, sed sollicitudin justo. Aliquam odio lectus, placerat eget facilisis at, ultrices eget mauris. Integer eu rutrum justo. Cras tempus venenatis mauris, id consequat lorem faucibus quis. Nullam vitae neque sit amet massa malesuada consectetur in vitae nulla. Etiam vitae lectus in ex vehicula porttitor volutpat nec erat. Cras a lorem id arcu volutpat molestie. Nulla ornare dui metus, eu hendrerit felis finibus eget.</p>
-            </section>
-            <section class="front-end">
-                <h2>Front-end</h2>
-                <p>Vestibulum ac venenatis augue, quis eleifend ex. Phasellus rutrum, ipsum at consequat viverra, sapien turpis porttitor ex, non malesuada orci turpis nec neque. Sed lorem dui, bibendum ac libero ac, accumsan aliquet sem. Donec facilisis auctor rhoncus. Vestibulum quis lectus euismod, feugiat lorem ut, fermentum nibh. Proin euismod quis ante vitae pharetra. Maecenas volutpat sapien eu massa lacinia congue ac non turpis. Quisque in suscipit tortor. In at erat sit amet tellus facilisis porttitor volutpat a enim. Morbi ac arcu ligula. Mauris vel velit justo. Sed a tincidunt nisi. In fringilla nibh ut dolor hendrerit gravida. Duis blandit risus sit amet quam pellentesque, non venenatis risus auctor.</p>
-            </section>
+
+            <div class="box-artigos">
+                <section class="back-end">
+                    <h2>BACK-END</h2>
+                    <p class="mini-titulo">Mussum ipsum cacilds, vidis litro abertis</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur nisl orci, dapibus sed tortor vel,
+                        accumsan pulvinar tortor. Aenean id tempor libero. Phasellus gravida justo ut ante congue, nec
+                        cursus dui porttitor. Morbi vitae vulputate ligula. Donec quis ipsum eget neque hendrerit semper. In
+                        sed pulvinar lorem. Fusce convallis lectus at est cursus dapibus vitae quis ante. Sed commodo
+                        scelerisque tortor, et imperdiet ex commodo et. Quisque molestie magna eu fermentum auctor. Nam
+                        cursus ante et lacus interdum, nec venenatis metus hendrerit. Sed gravida, diam et condimentum
+                        fermentum, lorem purus viverra leo, quis interdum elit turpis vel nunc...</p>
+                    <button class="btn-leia">+ Leia mais</button>
+                    <h3>Mais Artigos</h3>
+                    <ul>
+                        <li>Ipsum cacildis</li>
+                        <li>Receita de bolis</li>
+                        <li>Mussum ipsum</li>
+                        <li>Adipiscing elitís</li>
+                        <li>Nadis i pareci</li>
+                    </ul>
+                </section>
+
+                <section class="front-end">
+                    <h2>FRONT-END</h2>
+                    <p class="mini-titulo">Mussum ipsum cacilds, vidis litro abertis</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur nisl orci, dapibus sed tortor vel,
+                        accumsan pulvinar tortor. Aenean id tempor libero. Phasellus gravida justo ut ante congue, nec
+                        cursus dui porttitor. Morbi vitae vulputate ligula. Donec quis ipsum eget neque hendrerit semper. In
+                        sed pulvinar lorem. Fusce convallis lectus at est cursus dapibus vitae quis ante. Sed commodo
+                        scelerisque tortor, et imperdiet ex commodo et. Quisque molestie magna eu fermentum auctor. Nam
+                        cursus ante et lacus interdum, nec venenatis metus hendrerit. Sed gravida, diam et condimentum
+                        fermentum, lorem purus viverra leo, quis interdum elit turpis vel nunc...</p>
+                    <button class="btn-leia">+ Leia mais</button>
+                    <h3>Mais Artigos</h3>
+                    <ul>
+                        <li>Ipsum cacildis</li>
+                        <li>Receita de bolis</li>
+                        <li>Mussum ipsum</li>
+                        <li>Adipiscing elitís</li>
+                        <li>Nadis i pareci</li>
+                    </ul>
+                </section>
+            </div>
         </div>
+
         <aside class="lidos">
-            <h2>Mais lidos</h2>
+            <h2>MAIS LIDOS</h2>
             <ul>
                 <li>Ipsum cacildis</li>
                 <li>Receita de bolis</li>
@@ -58,8 +127,11 @@
             </div>
         </aside>
     </main>
+
     <footer>
         <p>Exercício Front-End: HTML5, CSS3, Responsivo — Desenvolvido por Anderson</p>
     </footer>
+
 </body>
+
 </html>

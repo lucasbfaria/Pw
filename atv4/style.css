@@ -12,17 +12,19 @@ header {
     border-bottom: 1px solid black;
 }
 
-.pesquisa {
-  display: flex;
+.logo h1 {
+    font-size: 24px;
 }
 
 .pesquisa input {
-  padding: 5px;
+    padding: 5px;
+    border: 1px solid #ccc;
 }
 
 nav {
-  background-color: #f0f0f0;
-  width: 100%;
+    background-color: #f0f0f0;
+    width: 100%;
+    border-bottom: 1px solid #ccc;
 }
 
 .menu {
@@ -35,27 +37,28 @@ nav {
 .menu li a {
     padding: 10px 15px;
     display: block;
-    background-color:#EDEDED;
+    background-color: #EDEDED;
     color: #333;
     text-decoration: none;
     text-transform: uppercase;
-
 }
+
 .menu li a:hover {
     background-color: #D6D6D6;
     color: #6D6D6D;
+}
 
+main {
+    margin: 12px;
 }
 
 .esquerda {
     float: left;
-    width: 75%;
+    width: 74%;
     box-sizing: border-box;
-    border: 1px solid #000;
 }
 
 .lidos {
-    margin-top: 12px;
     float: right;
     width: 25%;
     border: 1px solid #000;
@@ -63,16 +66,55 @@ nav {
     box-sizing: border-box;
 }
 
+.lidos ul {
+    margin-left: 14px;
+}
+
+.box-artigos {
+    margin-top: 12px;
+}
+
+.back-end {
+    width: 49%;
+    float: left;
+}
+
+.front-end {
+    width: 49%;
+    float: right;
+    margin-left: 2%;
+}
+
 main h2 {
     text-transform: uppercase;
+    margin-bottom: 10px;
 }
 
 section {
     border: 1px solid #000;
     padding: 10px;
-    margin-top: 12px;
-    margin-right: 12px;
-    box-sizing: border-box;
+    margin-bottom: 12px;
+}
+
+section h3 {
+    margin-top: 15px;
+    margin-bottom: 8px;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+section ul {
+    list-style: disc;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+.btn-leia {
+    margin-top: 10px;
+    padding: 5px 10px;
+    background-color: #eee;
+    border: 1px solid #888;
+    cursor: pointer;
 }
 
 .imagens {
@@ -81,16 +123,50 @@ section {
 
 .img-box {
     width: 48%;
-    height: 150px;
+    height: 160px;
     background: #ccc;
     float: left;
     margin: 1%;
-    box-sizing: border-box;
 }
 
 footer {
     clear: both;
     text-align: center;
     padding: 10px;
-    border-top: 1px solid #000;
+    border: 1px solid #000;
+    margin-top: 20px;
+}
+
+.mini-titulo {
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.dropdown {
+    position: relative;
+}
+
+.submenu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    min-width: 150px;
+    z-index: 1;
+    border: 1px solid #ccc;
+    list-style: none;
+}
+
+.submenu li a {
+    display: block;
+    padding: 10px;
+    text-transform: none;
+}
+
+.dropdown:hover .submenu {
+    display: block;
+}
+
+.submenu li a:hover {
+    background-color: #D6D6D6;
 }
