@@ -1,0 +1,23 @@
+<html>
+	<head>
+		<title>Exemplo de prompt</title>
+    </head>
+	<body>
+		<script language="javascript">
+            var altura = prompt("Digite sua altura em centímetros:");
+            var peso = prompt("Digite seu peso em kg:");
+            var imc = (peso * 10000) / (altura * altura);
+
+            if (imc > 30) {
+                classificacao = "Obesidade";
+            } else if (imc >= 25) {
+                classificacao = "Sobrepeso";
+            } else if (imc >= 18) {
+                classificacao = "Saudável";
+            } else {
+                classificacao = "Magreza leve";
+            }
+            alert("Seu IMC é: " + imc.toFixed(2) + "\nClassificação: " + classificacao);
+		</script>
+	</body>
+</HTML>

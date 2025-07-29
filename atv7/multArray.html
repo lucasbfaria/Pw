@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<title>MultArray</title>
+    </head>
+    <body>
+        <script>
+            function multArray(array, multiplicador) {
+                let resultado = [];
+                for (let i = 0; i < array.length; i++) {
+                    resultado.push(array[i] * multiplicador);
+                }
+                return resultado;
+            }
+
+            let numeros = [2, 3, 4, 7];
+            let multiplicador = 4;
+            let resultado = multArray(numeros, multiplicador);
+
+            document.write("Array: " + numeros + "<br>");
+            document.write("Multiplicado por " + multiplicador + ": " + resultado);
+        </script>
+    </body>
+</html>

@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<title>Math max</title>
+    </head>
+    <body>
+        <script>
+            function maior(...numeros) {
+                let maior = numeros[0];
+                for (let i = 1; i < numeros.length; i++) {
+                    if (numeros[i] > maior) {
+                        maior = numeros[i];
+                    }
+                }
+                return maior;
+            }
+            document.write("O maior número entre 5, 8, 3, 2 é " + maior(5, 8, 3, 2));
+        </script>
+    </body>
+</html>
