@@ -45,18 +45,14 @@
 
         <script>
             $(document).ready(function(){
-                // Mostra a primeira imagem e adiciona a classe "ativo"
                 $("#slide img:eq(0)").addClass("ativo").show();
 
-                // Pega o texto da legenda (alt) e cria o parágrafo
                 var texto = $(".ativo").attr("alt");
                 $("#slide").prepend("<p>"+texto+"</p>");
 
-                // Executa a função slide a cada 3 segundos
                 setInterval(slide, 3000);
 
                 function slide(){
-                    // Captura a legenda da imagem ativa
                     var texto = $(".ativo").attr("alt");
 
                     if($(".ativo").next("img").length){
@@ -66,7 +62,6 @@
                         $("#slide img:eq(0)").fadeIn().addClass("ativo");
                     }
 
-                    // Atualiza a legenda
                     texto = $(".ativo").attr("alt");
                     $("#slide p").hide().html(texto).delay(500).fadeIn();
                 }
